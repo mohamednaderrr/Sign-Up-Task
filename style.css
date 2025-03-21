@@ -116,3 +116,85 @@ body {
 .remember-me input[type="checkbox"] {
     margin-right: 5px;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .form-container {
+        padding: 50px;
+        width: 100%;
+    }
+
+    .image-container {
+        height: 300px;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .form-container {
+        padding: 40px;
+    }
+
+    .input-group input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .login-btn {
+        padding: 12px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .form-container {
+        padding: 30px;
+    }
+
+    .image-container {
+        height: 200px;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .form-container h2 {
+        font-size: 18px;
+    }
+
+    .input-group label {
+        font-size: 13px;
+    }
+
+    .options {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 12px;
+    }
+
+    .login-btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .register-link {
+        font-size: 12px;
+    }
+}
